@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Main Street Vineyard",
+        "adress": "Vancouver, British Columbia, Canadá",
+        "rooms": 1,
+        "bathrooms": 1,
+        "surface": "500 ft²",
+        "cost": 1411,
+        "rating": 4.70,
+        "love": false,
+        "imageURL": "https://a0.muscache.com/im/pictures/1179386/31213ae4_original.jpg?im_w=1200"
+    },
+    {
+        "id": 2,
+        "name": "The Micro Cabin in Roberts Creek",
+        "adress": "Roberts Creek, British Columbia, Canadá",
+        "rooms": 1,
+        "bathrooms": 1,
+        "surface": "180 ft²",
+        "cost": 1701,
+        "rating": 4.91,
+        "love": false,
+        "imageURL": "https://a0.muscache.com/im/pictures/106479477/b77246a0_original.jpg?im_w=1200"
+    },
+    {
+        "id": 3,
+        "name": "Woodsy Cabin Getaway-Four Season Paradise",
+        "adress": "Red Deer County, Alberta, Canadá",
+        "rooms": 1,
+        "bathrooms": 1,
+        "surface": "450 ft²",
+        "cost": 3853,
+        "rating": 4.99,
+        "love": false,
+        "imageURL": "https://www.airbnb.mx/rooms/29878933/photos?guests=1&adults=1"
+    },
+    {
+        "id": 4,
+        "name": "The Meadow",
+        "adress": "Wakefield, Quebec, Canadá",
+        "rooms": 2,
+        "bathrooms": 1,
+        "surface": "500 ft²",
+        "cost": 5081,
+        "rating": 4.96,
+        "love": false,
+        "imageURL": "https://www.airbnb.mx/rooms/18058297/photos?guests=1&adults=1"
+    },
+    {
+        "id": 5,
+        "name": "Welcome to our Unique Treehouse",
+        "adress": "Wardner, British Columbia, CanadáWardner, British Columbia, Canadá",
+        "rooms": 1,
+        "bathrooms": 1,
+        "surface": "385 ft²",
+        "cost": 4979,
+        "rating": 4.90,
+        "love": false,
+        "imageURL": "https://imganuncios.mitula.net/casa_en_renta_jarachina_norte_4030062613052484373.jpg"
+    }
+]
