@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "name": "Woodsy Cabin Getaway-Four Season Paradise",
+        "name": "Woodsy Cabin Season Paradise",
         "adress": "Red Deer County, Alberta, Canadá",
         "rooms": 1,
         "bathrooms": 1,
@@ -50,7 +50,7 @@
     {
         "id": 5,
         "name": "Welcome to our Unique Treehouse",
-        "adress": "Wardner, British Columbia, CanadáWardner, British Columbia, Canadá",
+        "adress": "Wardner, CanadáWardner, British Columbia, Canadá",
         "rooms": 1,
         "bathrooms": 1,
         "surface": "385 ft²",
