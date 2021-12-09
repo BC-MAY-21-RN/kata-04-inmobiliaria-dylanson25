@@ -1,8 +1,28 @@
 import React from 'react';
-import Tarjeta from './Tarjeta';
+import Tarjeta from './Tarjeta.js';
+import { View, Text, FlatList, ScrollView } from 'react-native';
 
-export const ItemList = () =>{
+const ItemList = ({info}) => {
+  const renderPlace =({item}) => {
     return(
-        //Aqui se genera la lista con las cosas
-    );
+      <Tarjeta
+      info={item}
+    />
+    )
+    
+    
+  }
+    return (
+      <View>
+      <FlatList
+        data={info}
+        renderItem={renderPlace}
+        keyExtractor={item => item.id}
+        horizontal={false}
+      />
+    </View>
+  );
+
 };
+
+export default ItemList;

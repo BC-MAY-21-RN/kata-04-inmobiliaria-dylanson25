@@ -1,15 +1,7 @@
-import React, {useEffect, useState} from 'react';
-import {Text, Image, View} from 'react-native';
-//import Icon from 'react-native-vector-icons/MaterialIcons';
 import {ContItem, ImageItem, InfoItem, ReiItem, 
     TitleItem, LocItem, AdsItem, PriceItem, 
     LoveItem, ImageP } from '../assets/styled';
-
-
-         
-const Tarjeta = ({info}) => {
-    return (
-        <ContItem>
+<ContItem>
         <ImageItem>
             <Image
                  source={{ uri: info.imageURL }}
@@ -50,7 +42,3 @@ const Tarjeta = ({info}) => {
         </InfoItem>
 
     </ContItem>
-  );
-};
-
-export default Tarjeta;

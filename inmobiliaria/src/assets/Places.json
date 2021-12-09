@@ -59,6 +59,19 @@
       "rating": 4.9,
       "love": false,
       "imageURL": "https://imganuncios.mitula.net/casa_en_renta_jarachina_norte_4030062613052484373.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Welcome to our Unique Treehouse",
+      "adress": "Wardner, CanadáWardner, British Columbia, Canadá",
+      "rooms": 1,
+      "bathrooms": 1,
+      "surface": "385 ft²",
+      "cost": 4979,
+      "rating": 4.9,
+      "love": false,
+      "imageURL": "https://imganuncios.mitula.net/casa_en_renta_jarachina_norte_4030062613052484373.jpg"
     }
   ]
 }
+
