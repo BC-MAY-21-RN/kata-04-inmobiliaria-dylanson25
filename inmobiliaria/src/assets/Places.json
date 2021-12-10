@@ -3,18 +3,18 @@
     {
       "id": 1,
       "name": "Main Street Vineyard",
-      "adress": "Vancouver, British Columbia, Canadá",
+      "adress": "British Columbia, Canadá",
       "rooms": 1,
       "bathrooms": 1,
       "surface": "500 ft²",
       "cost": 1411,
-      "rating": 4.7,
+      "rating": 4.75,
       "love": false,
       "imageURL": "https://a0.muscache.com/im/pictures/1179386/31213ae4_original.jpg?im_w=1200"
     },
     {
       "id": 2,
-      "name": "The Micro Cabin in Roberts Creek",
+      "name": "The Cabin in Roberts Creek",
       "adress": "Roberts Creek, Canadá",
       "rooms": 1,
       "bathrooms": 1,
@@ -26,8 +26,8 @@
     },
     {
       "id": 3,
-      "name": "Woodsy Cabin Season Paradise",
-      "adress": "Red Deer County, Alberta, Canadá",
+      "name": "Woodsy Cabin  Paradise",
+      "adress": "Deer County, Canadá",
       "rooms": 1,
       "bathrooms": 1,
       "surface": "450 ft²",
@@ -50,8 +50,8 @@
     },
     {
       "id": 5,
-      "name": "Welcome to our Unique Treehouse",
-      "adress": "Wardner, British Columbia, Canadá",
+      "name": "Unique Treehouse",
+      "adress": "British Columbia, Canadá",
       "rooms": 1,
       "bathrooms": 1,
       "surface": "385 ft²",

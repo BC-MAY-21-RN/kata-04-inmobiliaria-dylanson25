@@ -1,5 +1,5 @@
 import React from 'react';
-//import Icon from 'react-native-vector-icons/MaterialIcons';
+
 import {
   ContItem,
   ImageItem,
@@ -11,28 +11,59 @@ import {
   PriceItem,
   LoveItem,
   ImageP,
-  GroupAdss
+  GroupAdss,
+  BoxIcon,
+  IconI,
+  IconB,
+  StartItem,
+  ConteinerPL
 } from '../assets/styled';
 
 const Tarjeta = ({info}) => {
   return (
     <ContItem>
+
       <ImageItem>
-        <ImageP source={{uri: info.imageURL}} />
-        <ReiItem></ReiItem>
+        <ImageP source={{uri: info.imageURL}} /> 
+        
+        <ReiItem>
+         <StartItem name='star'/>
+          {info.rating}
+        </ReiItem>
+        
       </ImageItem>
 
       <InfoItem>
         <TitleItem>{info.name}</TitleItem>
-        <LocItem>{info.adress}</LocItem>
+        <BoxIcon>
+          <IconI name="location-pin" />
+          <LocItem>{info.adress}</LocItem>
+        </BoxIcon>
+        
         <GroupAdss>
-          <AdsItem>{info.rooms}</AdsItem>
-          <AdsItem>{info.bathrooms}</AdsItem>
-          <AdsItem>{info.surface}</AdsItem>
+          <BoxIcon>
+            <IconI name="home" />
+            <AdsItem>{info.rooms}</AdsItem>
+          </BoxIcon>
+          
+          <BoxIcon>
+            <IconB name="restroom" />
+            <AdsItem>{info.bathrooms}</AdsItem>
+          </BoxIcon>
+          
+          <BoxIcon>
+            <IconI name="resize-full-screen" />
+            <AdsItem>{info.surface}</AdsItem>
+          </BoxIcon>
         </GroupAdss>
-        <PriceItem>$ {info.cost}</PriceItem>
-        <LoveItem>{info.love}</LoveItem>
+        
+        <ConteinerPL>
+          <PriceItem>${info.cost}/m</PriceItem>
+          <LoveItem name="heart-outlined" ></LoveItem>
+        </ConteinerPL>
+
       </InfoItem>
+
     </ContItem>
   );
 };

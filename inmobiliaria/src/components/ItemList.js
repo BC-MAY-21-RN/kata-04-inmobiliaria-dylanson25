@@ -1,6 +1,6 @@
 import React from 'react';
 import Tarjeta from './Tarjeta.js';
-import { View, Text, FlatList, ScrollView } from 'react-native';
+import { FlatList } from 'react-native';
 
 
 const ItemList = ({info}) => {
