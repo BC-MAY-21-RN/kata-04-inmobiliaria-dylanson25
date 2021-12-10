@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "The Micro Cabin in Roberts Creek",
-      "adress": "Roberts Creek, British Columbia, Canadá",
+      "adress": "Roberts Creek, Canadá",
       "rooms": 1,
       "bathrooms": 1,
       "surface": "180 ft²",
@@ -34,7 +34,7 @@
       "cost": 3853,
       "rating": 4.99,
       "love": false,
-      "imageURL": "https://www.airbnb.mx/rooms/29878933/photos?guests=1&adults=1"
+      "imageURL": "https://a0.muscache.com/im/pictures/4e707503-1525-47e0-8105-1a3ad0cfceed.jpg?im_w=1200"
     },
     {
       "id": 4,
@@ -46,24 +46,12 @@
       "cost": 5081,
       "rating": 4.96,
       "love": false,
-      "imageURL": "https://www.airbnb.mx/rooms/18058297/photos?guests=1&adults=1"
+      "imageURL": "https://a0.muscache.com/im/pictures/144076d5-efe7-44b2-aae3-8a416e7c0604.jpg?im_w=1200"
     },
     {
       "id": 5,
       "name": "Welcome to our Unique Treehouse",
-      "adress": "Wardner, CanadáWardner, British Columbia, Canadá",
-      "rooms": 1,
-      "bathrooms": 1,
-      "surface": "385 ft²",
-      "cost": 4979,
-      "rating": 4.9,
-      "love": false,
-      "imageURL": "https://imganuncios.mitula.net/casa_en_renta_jarachina_norte_4030062613052484373.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Welcome to our Unique Treehouse",
-      "adress": "Wardner, CanadáWardner, British Columbia, Canadá",
+      "adress": "Wardner, British Columbia, Canadá",
       "rooms": 1,
       "bathrooms": 1,
       "surface": "385 ft²",
