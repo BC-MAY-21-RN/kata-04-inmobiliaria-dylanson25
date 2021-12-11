@@ -42,7 +42,7 @@ export const ReiItem = styled(Text)`
   font-weight: bold;
   font-size: 15px;
   background-color: #fffed3;
-  border-radius: 7px;
+  border-radius: 9px;
   padding: 2px;
   margin-right: 25%;
   margin-left: 25%;

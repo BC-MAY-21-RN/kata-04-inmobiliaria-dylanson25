@@ -1,5 +1,5 @@
 import React from 'react';
-
+//import { TouchableOpacity } from 'react-native';
 import {
   ContItem,
   ImageItem,
@@ -20,6 +20,7 @@ import {
 } from '../assets/styled';
 
 const Tarjeta = ({info}) => {
+  //const nameIcon = (info.love) ? 'heart' : 'heart-outlined';
   return (
     <ContItem>
 
@@ -59,7 +60,7 @@ const Tarjeta = ({info}) => {
         
         <ConteinerPL>
           <PriceItem>${info.cost}/m</PriceItem>
-          <LoveItem name="heart-outlined" ></LoveItem>
+          <LoveItem name='heart'/>        
         </ConteinerPL>
 
       </InfoItem>
